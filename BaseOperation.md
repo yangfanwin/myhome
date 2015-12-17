@@ -27,9 +27,12 @@
    		git push -u origin master
 
 ##提交代码
-    git add .   
+    git add . -A
    	git commit -m "changes log"
    	git push -u origin master
+
+##查看修改文件
+    git status
 
 ##异常解决
     1.warning: LF will be replaced by CRLF
